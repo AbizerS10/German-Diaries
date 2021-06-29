@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+@font-face {
+    font-family: "Peachy Keen";
+    src: url("Peachy\ Keen\ JF.otf");
+}
 * {
     font-family: 'Playfair Display', serif;
 }
@@ -114,27 +117,24 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 .home .navbar , .navbar {
   z-index: 998;
   width: 100%;
-  background: #EFE483;
-background: -webkit-linear-gradient(bottom right, #EFE483, #EADA4B);
-background: -moz-linear-gradient(bottom right, #EFE483, #EADA4B);
-background: linear-gradient(to top left, #EFE483, #EADA4B);
-}
-.home .navbar-brand h1{
-  color: rgba(0,0,0,0.95);
+  background-color: white !important;
 }
 .home .navbar .navbar-brand img , .navbar-brand img {
   width: 3rem;
   height: 3rem;
-  margin-top: -1rem;
+  margin-top: -1.3rem;
 }
 .home .navbar .navbar-brand h1 , .navbar-brand h1 {
   margin-top: 1rem;
   margin-left: 0.5rem;
+  font-family: "Peachy Keen";
+  font-size: 3rem;
+  color: rgba(0,0,0,0.95);
 }
 .home .container h1 {
     font-size: 4rem;
@@ -366,12 +366,13 @@ background: linear-gradient(to top left, #EFE483, #EADA4B);
 .brand img {
   width: 3rem;
   height: 3rem;
-  margin-top: -1rem;
+  margin-top: -1.3rem;
 }
 .brand h1 {
     color: rgba(0,0,0,0.95);
     margin-top: 1rem;
     margin-left: 0.5rem;
+    font-family: "Peachy Keen";
 }
 .foot .main-a {
     display: inline-block;
@@ -512,11 +513,6 @@ background: linear-gradient(to top left, #EFE483, #EADA4B);
     .caption p, .caption .fas {
         font-size: 1rem;
     }
-
-    /* Puzzles Page */
-    /* .literature .row .col-12 {
-        flex: 50%;
-    } */
 }
 @media (max-width: 650px) {
     .main-col3 {
